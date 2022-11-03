@@ -13,9 +13,9 @@ function Experience() {
 
             <div className="container experience__container">
                 <div className="experience__frontend"
-                    data-aos="slide-right"
+                    data-aos="fade-left"
                     data-aos-offset="100"
-                    data-aos-delay="10"
+                    data-aos-delay="50"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
 
@@ -68,9 +68,9 @@ function Experience() {
                 </div>
 
                 <div className="experience__backend"
-                    data-aos="slide-left"
+                    data-aos="fade-right"
                     data-aos-offset="100"
-                    data-aos-delay="10"
+                    data-aos-delay="50"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                 >
