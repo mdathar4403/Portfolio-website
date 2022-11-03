@@ -4,6 +4,9 @@ import ME from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function About() {
     return (
@@ -12,13 +15,26 @@ function About() {
             <h2>About Me</h2>
 
             <div className="container about__container">
-                <div className="about__me">
+                <div className="about__me"
+                    data-aos="zoom-in"
+                    data-aos-offset="100"
+                    data-aos-delay="10"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+
+                >
                     <div className="about__me-image">
                         <img src={ME} alt="hero" />
                     </div>
                 </div>
 
-                <div className="about__content">
+                <div className="about__content"
+                    data-aos="flip-left"
+                    data-aos-offset="100"
+                    data-aos-delay="30"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                >
                     <div className="about__cards">
                         <article className="about__card">
                             <FaAward className="about__icon" />
