@@ -38,6 +38,7 @@
     transition: all 180ms ease-in-out;
 }
 .about__card:hover{
+    transform: perspective(1000px) scale3d(1.06, 1.06, 1.06);
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
